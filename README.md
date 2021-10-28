@@ -3,8 +3,8 @@ A scrip to post and update Slack messages linked to BestPractical RT tickets.
 
 
 ## Installation & Config
-1. Create a Slack App:
-  2. https://api.slack.com/apps 
+1. Create a Slack App: https://api.slack.com/apps 
+  * ......will fill in these details shortly.
 3. Create a "slack_timestamp" Custom Field in your RT instance.  Apply it whichever queues you will use with this scrip.
 4. Create a scrip:
   * Basics
