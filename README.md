@@ -3,8 +3,10 @@ A scrip to post and update Slack messages linked to BestPractical RT tickets.
 
 
 ## Installation & Config
-1. Create a "slack_timestamp" Custom Field in your RT instance.  Apply it whichever queues you will use with this scrip.
-2. Create a scrip:
+1. Create a Slack App:
+  2. https://api.slack.com/apps 
+3. Create a "slack_timestamp" Custom Field in your RT instance.  Apply it whichever queues you will use with this scrip.
+4. Create a scrip:
   * Basics
     * Condition: User Defined
     * Action: User Defined
@@ -12,8 +14,10 @@ A scrip to post and update Slack messages linked to BestPractical RT tickets.
   * Custom condition: Paste code from the CustomCondition file.
   * Custom action preparation code: Paste code from the CustomActionPrep file.
   * Custom action commit: Paste code from CustomActionCommit file.
-3. Configure it
+5. Configure it
   * set your $slackURL, rtURL, $token
   * find the slack channel IDs and configure queue -> channel mapping
     * In slack, right click the channel, copy link, past it somewhere.  The id is at the end.  Looks something like this: "C011AAXXXX"
+6. Apply the scrip to the desired RT queues.
+7. Invite your Slack App to the desired channels.
 
