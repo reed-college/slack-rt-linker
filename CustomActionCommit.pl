@@ -27,7 +27,7 @@ my $queue = $self->TicketObj->QueueObj->Name;
 
 my $channel = "";
 if ($queue eq "RT-QUEUE1") {
-    $channel = "SLACK-CHANNEL-ID1;
+    $channel = "SLACK-CHANNEL-ID1";
 } elsif ($queue eq "RT-QUEUE2") {
     $channel = "SLACK-CHANNEL-ID2";
 } elsif ($queue eq "RT-QUEUE3") {
