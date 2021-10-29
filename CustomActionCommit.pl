@@ -1,3 +1,4 @@
+#
 ## https://github.com/reed-college/slack-rt-linker
 
 ## Script must be Applied to whichever queues you want to integrate
