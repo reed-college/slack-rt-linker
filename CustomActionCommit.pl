@@ -1,8 +1,7 @@
-## slack-rt-linker
 ## https://github.com/reed-college/slack-rt-linker
 
-## Script must be Applied to whichever queues you want to integrate
-## Invite @RT to whatever slack channels you expect it to post to
+## Script must be Applied to the queues you want to integrate
+## Invite @RT to the slack channels you expect it to post to
 
 use IO::Socket::SSL;
 use HTTP::Request::Common qw(POST);
@@ -35,8 +34,6 @@ if ($queue eq "RT-QUEUE1") {
     $channel = "SLACK-CHANNEL-ID2";
 } elsif ($queue eq "RT-QUEUE3") {
     $channel = "SLACK-CHANNEL-ID3";
-} elsif ($queue eq "tis-issues") {
-    $channel = "RT-QUEUE4";
 }
 ################################
 
