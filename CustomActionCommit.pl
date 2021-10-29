@@ -1,3 +1,5 @@
+## https://github.com/reed-college/slack-rt-linker
+
 ## Script must be Applied to whichever queues you want to integrate
 ## Invite @RT to whatever slack channels you expect it to post to
 
