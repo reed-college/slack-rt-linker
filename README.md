@@ -30,9 +30,9 @@ Slack message is updated when ticket is taken.  A Take or Steal link is displaye
   * Custom action preparation code: Paste code from the CustomActionPrep file.
   * Custom action commit: Paste code from CustomActionCommit file.
 3. Configure it
-  set your $slackURL, rtURL, $token
-  find the slack channel IDs and configure queue -> channel mapping
-    In slack, right click the channel, copy link, past it somewhere.  The id is at the end.  Looks something like this: "C011AAXXXX"
+  * set your $slackURL, rtURL, $token
+  * find the slack channel IDs and configure queue -> channel mapping
+    * In slack, right click the channel, copy link, past it somewhere.  The id is at the end.  Looks something like this: "C011AAXXXX"
 4. Apply the scrip to the desired RT queues.
 5. Invite your Slack App to the desired channels.
 
