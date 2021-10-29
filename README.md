@@ -1,10 +1,10 @@
 # slack-rt-linker
 A scrip to post and update Slack messages linked to BestPractical RT tickets.
 
-Tickets are posted in slack when created or moved to an applied RT queue.
+Tickets are posted in slack when created or moved to an applied RT queue.  A Take or Steal link is displayed as appropriate.
 ![slack-rt-take](https://user-images.githubusercontent.com/20231630/139367223-015785e2-b74a-498c-915b-3c33f0daf23a.jpg)
 
-Slack message is updated when ticket is taken.  A Take or Steal link is displayed as appropriate.
+Slack message is updated when ticket is taken or when Requestor or Owner are modified.
 ![slack-rt-steal](https://user-images.githubusercontent.com/20231630/139367251-23d625f4-e906-48fe-bc64-9975d342621c.jpg)
 
 ## Installation & Config
