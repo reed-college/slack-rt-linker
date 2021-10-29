@@ -1,6 +1,10 @@
 # slack-rt-linker
 A scrip to post and update Slack messages linked to BestPractical RT tickets.
+New tickets with their Requestor, ID, and Subject, no Owner:
+![slack-rt-take](https://user-images.githubusercontent.com/20231630/139367223-015785e2-b74a-498c-915b-3c33f0daf23a.jpg)
 
+Ticket is updated when Taken.  If ticket is moved to another queue a new message is posted in the new queue.
+![slack-rt-steal](https://user-images.githubusercontent.com/20231630/139367251-23d625f4-e906-48fe-bc64-9975d342621c.jpg)
 
 ## Installation & Config
 ### Slack App
